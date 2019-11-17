@@ -1,0 +1,305 @@
+/* CSS Document */
+body{font-family:"微软雅黑";}
+.warp{ width:100%; overflow:hidden; position:relative;}
+.section{ width:100%; overflow:hidden; position:relative; }
+.sect01_cont{ width:1416px; height:936px; margin:0 auto; overflow:hidden; position:absolute; left:50%; top:0; margin-left:-708px}
+.logo{ width:210px; height:100px; position:absolute; top:16px; left:50%; margin-left:-600px;}
+/*.logo a{ display:block; width:208px; height:82px; }*/
+/*.logoa1{width:93px; height:122px;}*/
+.top_enter{ width:144px; height:26px; position:absolute; right:80px; top:0;}
+.top_enter a{ display:block; width:144px; height:26px; background:url("../images/btn_enter.png")/*tpa=http://upload.skysgame.com/static/official/xyqy/v5.0/images/btn_enter.png*/ no-repeat 0 0;}
+.slogan{ width:939px; height:249px;  position:absolute; left:50%; top:105px; margin-left:-640px;}
+.slogan span{ display:block; width:100%; height:387px;}
+.daytime{ display:none; width:180px;  height:100px; overflow:hidden; position:absolute; right:0; top:20px; background:url("../images/djs_bg.png")/*tpa=http://upload.skysgame.com/static/official/xyqy/v5.0/images/djs_bg.png*/ no-repeat 0 0;}
+.day{ width:160px; height:70px; float:left; margin-top:24px;  }
+.day span{ display:block; float:left; margin-top:30px; font-size:18px; color:#d8a972; font-weight:bold;}
+.day1,.day2{ width:48px; height:66px; float:left; margin-right:6px; background:url("../images/day_bg.png")/*tpa=http://upload.skysgame.com/static/official/xyqy/v5.0/images/day_bg.png*/ no-repeat 0 0; overflow:hidden;}
+.day1 img,.day2 img{ width:48px; height:66px;}
+.v_btn{ width:80px; height:90px; position:absolute; right:0; top:52px;}
+.v_btn a{ display:block; width:60px; height:60px; margin:0 auto; background:url("../images/icon_player.png")/*tpa=http://upload.skysgame.com/static/official/xyqy/v5.0/images/icon_player.png*/ no-repeat -74px 0; position:relative;}
+.v_btn a span{ display:block; width:60px; height:60px;  background:url("../images/icon_player.png")/*tpa=http://upload.skysgame.com/static/official/xyqy/v5.0/images/icon_player.png*/ no-repeat 0 0; position:absolute; left:0; top:0;  -webkit-animation:xuanzhuan2 7s linear infinite;animation:xuanzhuan2 7s linear infinite; }
+.v_btn p{ display:block; width:100%; margin-top:6px; font-size:14px; color:#b92318; text-align:center;}
+@-webkit-keyframes xuanzhuan2{0%{-webkit-transform:rotate(720deg);transform:rotate(720deg)}to{-webkit-transform:rotate(0);transform:rotate(0)}}
+.music{ width:220px; height:27px; position:absolute; right:210px; top:3px;}
+.btn-audio { float: left; cursor: pointer; }
+.btn-audio > span { display: inline-block;	width:75px; line-height:20px; margin:6px 0 0 6px; font-size:12px; color:#b92318; font-family:"Arial";}
+.m_song { display: block; width:100px; height:27px; float:left; position: relative; font-size:12px; color:#b92318; line-height:27px; overflow: hidden; }  
+.m_song_txt { position: absolute; top: 0; left:0;  line-height:27px; display: block; word-break: keep-all; text-overflow: ellipsis; white-space: nowrap;  } 
+
+.audio-anim { position: relative; float: left; width:25px;	height: 20px;	}
+.audio-anim span {	position: absolute;	bottom: 0;	left: 0;	width: 2px;	background-color: #b92318;}
+.audio-anim span:nth-child(1) {	left: 0;	height: 10px;}
+.audio-anim span:nth-child(2) {	left: 7px;	height: 18px;}
+.audio-anim span:nth-child(3) {	left: 14px;	height: 12px;}
+.audio-anim span:nth-child(4) {	left: 21px;	height: 16px;}
+.audio-anim span {	-webkit-animation: musicShort .4s linear infinite both alternate;	animation: musicShort .4s linear infinite both alternate;}
+.audio-anim span:nth-child(1) {}
+.audio-anim span:nth-child(2) {	-webkit-animation-name: musicLong;	animation-name: musicLong;	-webkit-animation-delay: .2s;	animation-delay: .2s;}
+.audio-anim span:nth-child(3) {	-webkit-animation-delay: .3s;	animation-delay: .3s;}
+.audio-anim span:nth-child(4) {	-webkit-animation-name: musicLong;	animation-name: musicLong;	-webkit-animation-delay: .4s;	animation-delay: .4s;}
+.pause .audio-anim span {	-webkit-animation: none;	animation: none;}
+@-webkit-keyframes musicShort {
+ 0% { height: 0;}
+ 100% { height: 13px;}
+}
+ @-webkit-keyframes musicLong {
+ 0% { height: 0;}
+ 100% { height: 22px;}
+}
+ @keyframes musicLong {
+ 0% { height: 0;}
+ 100% { height: 22px;}
+}
+@keyframes move
+{
+    0%{ transform:translateY(0px);}
+	50%{ transform:translateY(-200px); }
+    100%{ transform:translateY(0px); }
+}
+
+.slogan_b{ width:100px; height:32px; padding:0 56px; position:absolute; left:206px; bottom:12px; font-size:24px; color:#e6ab10; line-height:40px;}
+.slogan_b p{ display:block; width:80px; float:left; line-height:40px;}
+.slogan_bn{ width:100px; height:40px; overflow:hidden; float:left; position:relative;}
+.slogan_bn ul{ height:40px;  position:absolute;}
+.slogan_bn li{ width:110px; height:40px; overflow:hidden; float:left; line-height:40px;}
+.boxlist{ width:771px; height:513px; overflow:hidden; background:url("../images/boxlist_bg.png")/*tpa=http://upload.skysgame.com/static/official/xyqy/v5.0/images/boxlist_bg.png*/ no-repeat 0 0; position:absolute; top:367px; left:50%; margin-left:-620px;}
+.denglong01,.denglong02{ display:block; width:29px; height:105px; position:absolute; top:18px;}
+.denglong01{ left:10px;}
+.denglong02{ right:0px;}
+.boxlist_r{ width:290px; height:330px; float:left; margin:67px 0 0 5px;}
+.boxlist01{ width:350px; height:321px; margin:67px 0 0 62px; float:left; background:url("../images/boxlist04.png")/*tpa=http://upload.skysgame.com/static/official/xyqy/v5.0/images/boxlist04.png*/ no-repeat 0 0;}
+.blist01_form{ width:300px; height:280px; margin:80px 0 0 36px; overflow:hidden;}
+.boxlist01 .blist01_form{ overflow:hidden;}
+.bf_unit{ width:100%; height:38px; margin-bottom:6px; }
+.bf_unit p{ display:block; width:74px; height:36px; float:left; font-size:14px; color:#5d5d5d; line-height:36px;}
+.bf_unit input{ width:276px; height:20px; padding:6px 5px; font-size:14px; color:#333; border:1px solid #97c0c0; float:left;}
+.bf_chbox{ height:40px; overflow:hidden; position:relative;}
+.bf_chbox input{ display:none; width:17px; height:17px; border:1px solid #97c0c0; float:left; margin:0;}
+.bf_chbox span{ display:block; width:250px; font-size:12px; color:#5d5d5d; line-height:18px;  margin:0 0 0 24px;}
+.bf_chbox span a{ color:#5d5d5d;}
+.bf_btn{ width:100%; }
+.bf_btn .boxlist_btn01{ width:287px; height:52px; background:url("../images/button_reg.png")/*tpa=http://upload.skysgame.com/static/official/xyqy/v5.0/images/button_reg.png*/ no-repeat 0 -65px; border:0; margin:0 auto; text-indent:999px; white-space:nowrap; overflow:hidden;}
+.bf_unit .second_pw{ width:120px; float:left;}
+.bf_yz input{ width:60px; float:left; margin-left:3px;}
+.bf_yz span{ display:block; height:32px; width:70px; float:left; margin-left:6px; overflow:hidden;}
+.bf_yz span img{ height:32px;}
+.iconed{ position:absolute; display:inline-block; background:url("../images/icon_checked.png")/*tpa=http://upload.skysgame.com/static/official/xyqy/v5.0/images/icon_checked.png*/ no-repeat center; height:20px; width:20px; cursor:pointer; top:0px; left:0px}
+.iconun{ position:absolute; display:inline-block; background:url("../images/icon_checkun.png")/*tpa=http://upload.skysgame.com/static/official/xyqy/v5.0/images/icon_checkun.png*/ no-repeat center; height:20px; width:20px; cursor:pointer; top:0px; left:0px}
+.boxlist02{ width:289px; height:192px;}
+.boxlist03{ width:289px; height:126px; margin-top:4px; }
+.boxlist02 a{ display:block; width:289px; height:192px; background:url("../images/boxlist05.gif")/*tpa=http://upload.skysgame.com/static/official/xyqy/v5.0/images/boxlist05.gif*/ no-repeat 0 0; text-indent:999px; white-space:nowrap; overflow:hidden;}
+.boxlist03 a{ display:block; width:289px; height:126px; background:url("../images/boxlist06.png")/*tpa=http://upload.skysgame.com/static/official/xyqy/v5.0/images/boxlist06.png*/ no-repeat 0 0; text-indent:999px; white-space:nowrap; overflow:hidden;}
+/*.boxlist_btn{ display:block; width:277px; height:54px; background:url(../images/btn2_bg01.png) no-repeat 0 0; text-align:center; font-size:24px; color:#fff; line-height:54px; border:0;}
+.boxlist_btn:hover{ background-position:0 -71px;}
+.boxlist_btn02,.boxlist_btn03{ margin:305px auto 0;}*/
+.sect02{ width:100%; height:691px; background:url("../images/w2_bg02.jpg")/*tpa=http://upload.skysgame.com/static/official/xyqy/v5.0/images/w2_bg02.jpg*/ no-repeat center 0; overflow:hidden; }
+.wel_t{ width:1200px; height:50px; overflow:hidden; margin:70px auto 56px; }
+.wel_t span{ display:block; width:620px; height:50px; margin:0 auto; background-image:url("../images/wel_t01.png")/*tpa=http://upload.skysgame.com/static/official/xyqy/v5.0/images/wel_t01.png*/; background-repeat:no-repeat; text-indent:9999px; overflow:hidden; white-space:nowrap; }
+.sect02 .wel_t span{ background-position: 0 0;}
+.sect03 .wel_t span{ background-position: 0 -75px;}
+.sect04 .wel_t span{ background-position: 0 -149px;}
+.w2_ts{ width:1200px; height:720px; margin:0 auto; overflow:hidden; position:relative;}
+.w2_ts_item{ width:100%; height:97px;}
+.w2_ts_item ul li{ height:97px; float:left;}
+.w2_ts_item ul li span{ display:block; height:97px;  background-image:url("../images/btn_list002.png")/*tpa=http://upload.skysgame.com/static/official/xyqy/v5.0/images/btn_list002.png*/; background-repeat:no-repeat; cursor:pointer;}
+.w2_ts_item01 span{ width:270px; background-position:0 0; }
+.w2_ts_item02 span{ width:288px; background-position:-270px 0; }
+.w2_ts_item03 span{ width:274px; background-position:-558px 0; }
+/*.w2_ts_item04 span{ width:275px; background-position:-633px 0; }*/
+.w2_ts_item05 span{ width:368px; background-position:-832px 0; }
+.w2_ts_item01 span:hover,.w2_ts_item01 span.hover{ background-position:0 -163px; }
+.w2_ts_item02 span:hover,.w2_ts_item02 span.hover{ background-position:-270px -163px; }
+.w2_ts_item03 span:hover,.w2_ts_item03 span.hover{ background-position:-558px -163px; }
+/*.w2_ts_item04 span:hover,.w2_ts_item04 span.hover{ background-position:-633px -163px; }*/
+.w2_ts_item05 span:hover,.w2_ts_item05 span.hover{ background-position:-832px -163px; }
+.w2_ts_list{ width:1200px; height:597px; overflow:hidden; margin-top:16px; position:relative;}
+.w2_ts_list li{ display:none; width:1200px; height:597px; float:left;}
+.w2_ts_list li a{ display:block; width:1200px; height:597px; overflow:hidden;}
+.w2_ts_list li.on{ display:block;}
+.sect03{ height:843px; background:url("../images/w2_bg03.jpg")/*tpa=http://upload.skysgame.com/static/official/xyqy/v5.0/images/w2_bg03.jpg*/ no-repeat center 0; }
+.sect03 .wel_t{ margin-bottom:30px;}
+.gboxlist{ width:1236px; margin:0 auto; overflow:hidden; }
+.gboxlist ul li{ width:219px; height:302px; float:left; margin:0 14px 30px;}
+.gboxlist ul li.gbl_six{ margin-left:120px;}
+.gboxlist ul li a{ display:block; width:100%; height:302px;}
+
+.sect04{ height:1050px; background:url("../images/w2_bg04.jpg")/*tpa=http://upload.skysgame.com/static/official/xyqy/v5.0/images/w2_bg04.jpg*/ no-repeat center 0;}
+.w2_btnlist{ width:1200px; height:90px; overflow:hidden; position:absolute; left:50%; bottom:130px; margin-left:-600px;}
+.w2_btnlist ul li{ float:left; height:90px; position:relative;}
+.w2_btnlist ul li a{ display:block; width:323px; height:87px; background-image:url("../images/btn_list001.png")/*tpa=http://upload.skysgame.com/static/official/xyqy/v5.0/images/btn_list001.png*/; background-repeat:no-repeat; text-indent:999px; overflow:hidden; white-space:nowrap; }
+.w2_btnlist01,.w2_btnlist02{ width:438px;}
+.w2_btnlist03{ width:323px;}
+.w2_btnlist01 a{ background-position:0 0; }
+.w2_btnlist02 a{ background-position:-344px 0 ;}
+.w2_btnlist03 a{ background-position:-694px 0 ;}
+.w2_btnlist01 a:hover{ background-position:0 -101px ;}
+.w2_btnlist02 a:hover{ background-position:-344px -101px ;}
+.w2_btnlist03 a:hover{ background-position:-694px -101px ;}
+.w2_btnlist ul li em{ display:block; width:24px; height:38px; background:url("../images/btn_list001.png")/*tpa=http://upload.skysgame.com/static/official/xyqy/v5.0/images/btn_list001.png*/ no-repeat -1072px -126px; position:absolute; right:38px; top:24px;}
+/*职业*/
+.wzhiye{ width:1320px; height:640px; margin:0 auto; overflow:hidden; position:relative;}
+.zy_in_list{ width:630px; height:160px; position:absolute; top:0; left:60px; z-index:10;}
+.zy_in_list ul li{ width:50px; height:145px; float:left; margin-right:12px; }
+.zy_in_list ul li a{ display:block; width:50px; height:145px; overflow:hidden;  background-image:url("../images/zy_mc.png")/*tpa=http://upload.skysgame.com/static/official/xyqy/v5.0/images/zy_mc.png*/; background-repeat: no-repeat; text-indent:999px; overflow:hidden; white-space:nowrap;}
+.zy_class_tcf a{ background-position:-479px 0;}
+.zy_class_hyd a{ background-position:-68px 0;}
+.zy_class_lxd a{ background-position:-137px 0;}
+.zy_class_sjg a{ background-position:-205px 0;}
+.zy_class_ymd a{ background-position:-274px 0;}
+.zy_class_lts a{ background-position:-342px 0;}
+.zy_class_tys a{ background-position:-410px 0;}
+.zy_class_yyg a{ background-position:0 0;}
+.zy_class_swz a{ background-position:-547px 0;}
+.zy_class_tcf:hover a,.zy_class_tcf.hover a{ background-position:-479px -160px;}
+.zy_class_hyd:hover a,.zy_class_hyd.hover a{ background-position:-68px -160px;}
+.zy_class_lxd:hover a,.zy_class_lxd.hover a{ background-position:-137px -160px;}
+.zy_class_sjg:hover a,.zy_class_sjg.hover a{ background-position:-205px -160px;}
+.zy_class_ymd:hover a,.zy_class_ymd.hover a{ background-position:-274px -160px;}
+.zy_class_lts:hover a,.zy_class_lts.hover a{ background-position:-342px -160px;}
+.zy_class_tys:hover a,.zy_class_tys.hover a{ background-position:-410px -160px;}
+.zy_class_yyg:hover a,.zy_class_yyg.hover a{ background-position:0 -160px;}
+.zy_class_swz:hover a,.zy_class_swz.hover a{ background-position:-547px -160px;}
+.zy_in_unit{ display:none; width:100%; height:588px; overflow:hidden; position:relative; z-index:5}
+.zy_in_unit.on{ display:block;}
+.zy_info{ width:524px; height:360px; position:absolute; opacity:0; left:-105%; top:200px; transition: all 0.7s ease-out 0s; }
+.zy_info.on1{ left:60px; opacity:1; transition: all 0.7s ease-out 0s;}
+.zy_more{ display:block; width:250px; height:40px; position:absolute; bottom:25px; left:10px; background:url("../images/btn_list001.png")/*tpa=http://upload.skysgame.com/static/official/xyqy/v5.0/images/btn_list001.png*/ no-repeat -1067px 0; text-indent:999px; overflow:hidden; white-space:nowrap;}
+.zy_more:hover{ background-position:-1067px -61px;}
+.zy_rose{ width:800px; height:591px; position:absolute; top:0; right: -100%; opacity: 0;  transition: all 0.7s ease-out 0s; z-index:2; }
+.zy_rose.on2{ right:0; opacity:1; transition: all 0.7s ease-out 0s; }
+.zy_rose_img{ width:800px; height:591px; position:absolute; right:20px; bottom:0;}
+.zy_rose_list{ width:184px; height:240px; position:absolute; right:40px; top:0; z-index:8;}
+.zy_rose_list a{ display:block; width:185px; height:66px; background-image:url("../images/zy_tx.png")/*tpa=http://upload.skysgame.com/static/official/xyqy/v5.0/images/zy_tx.png*/; background-repeat:no-repeat; margin-bottom:6px;}
+.zy_rose_unit{ display:none; width:800px; height:6591px; text-align:center; }
+.zy_rose_unit.on{ display:block;}
+.rose_zqf_s{ background-position:0 -232px;}
+.rose_yql_s{ background-position:0 -309px;}
+.rose_hxb_z{ background-position:0 0;}
+.rose_mjy_s{ background-position:0 -155px;}
+.rose_mlj_s{ background-position:0 -79px;}
+.rose_xyx_s{ background-position:0 -462px;}
+.rose_sll_s{ background-position:0 -539px;}
+.rose_yrx_s{ background-position:0 -386px;}
+.rose_ylc_s{ background-position:0 -619px;}
+.rose_jnt_s{ background-position:0 -696px;}
+.rose_sty_s{ background-position:0 -773px;}
+.rose_hdy_s{ background-position:0 -850px;}
+.rose_zqf_s:hover,.rose_zqf_s.hover{ background-position:-215px -232px;}
+.rose_yql_s:hover,.rose_yql_s.hover{ background-position:-215px -309px;}
+.rose_hxb_z:hover,.rose_hxb_z.hover{ background-position:-215px 0;}
+.rose_mjy_s:hover,.rose_mjy_s.hover{ background-position:-215px -155px;}
+.rose_mlj_s:hover,.rose_mlj_s.hover{ background-position:-215px -79px;}
+.rose_xyx_s:hover,.rose_xyx_s.hover{ background-position:-215px -462px;}
+.rose_sll_s:hover,.rose_sll_s.hover{ background-position:-215px -539px;}
+.rose_yrx_s:hover,.rose_yrx_s.hover{ background-position:-215px -386px;}
+.rose_ylc_s:hover,.rose_ylc_s.hover{ background-position:-215px -619px;}
+.rose_jnt_s:hover,.rose_jnt_s.hover{ background-position:-215px -696px;}
+.rose_sty_s:hover,.rose_sty_s.hover{ background-position:-215px -773px;}
+.rose_hdy_s:hover,.rose_hdy_s.hover{ background-position:-215px -850px;}
+.w2_totop{ width:200px; height:57px; position:absolute; bottom:0; left:50%; margin-left:-100px;}
+.w2_totop a{ display:block; width:200px; height:57px; background:url("../images/btn_list001.png")/*tpa=http://upload.skysgame.com/static/official/xyqy/v5.0/images/btn_list001.png*/ no-repeat 0 -203px;}
+.w2_totop a:hover{ background-position:-205px -203px;}
+.w2_footer{ width:100%; height:150px; background:#c5ecec; overflow:hidden;}
+.w2_footer .footer_cont{ margin:57px auto 0;}
+.reg2_win,.reg3_win{ display:none; width:100%; height:1250px; background:rgba(0,0,0,0.5); position:fixed; left:0; top:0; z-index:20;}
+.reg2_win_cont{ width:654px; height:329px; background:url("../images/w2_regwinbg.png")/*tpa=http://upload.skysgame.com/static/official/xyqy/v5.0/images/w2_regwinbg.png*/ no-repeat 0 0; margin:250px auto 0; position:relative; overflow:hidden;}
+.reg2_win_main{ width:300px; height:329px; overflow:hidden; float:left;}
+.reg2_win_main .blist01_form{ width:260px;  margin:80px 0 0 20px; overflow:hidden;}
+.reg2_win_main .bf_unit{ width:100%; height:36px; margin:0; }
+.reg2_win_main .bf_unit input{ width:218px; height:18px; padding:4px 5px; border:1px solid #08918d;}
+.reg2_win_main .bf_unit .second_pw{ width:96px;}
+.reg2_win_main .bf_chbox{ height:24px;}
+.reg2_win_main .bf_chbox span{ width:186px;}
+.reg2_win_main  .bf_btn{  margin:6px 0 0 0;}
+.reg2_win_main .bf_yz input{ width:60px; float:left;}
+.reg2_win_main .bf_yz span{ display:block; height:28px; width:65px; float:left; margin-left:3px; overflow:hidden;}
+.reg2_win_main .bf_yz span img{ height:28px;}
+.reg2_win_main .boxlist_btn{ display:block; width:199px; height:46px; background-image:url("../images/w2_reg_btn.png")/*tpa=http://upload.skysgame.com/static/official/xyqy/v5.0/images/w2_reg_btn.png*/; background-repeat:no-repeat;}
+.reg2_win_main .boxlist_btn{ border:0; background-color:transparent;}
+.reg2_win_main .boxlist_btn:hover{ background-position:0 -71px;}
+.reg2_win_close,.reg3_win_close{ width:15px; height:15px; background:url("../images/icon_close07.png")/*tpa=http://upload.skysgame.com/static/official/xyqy/v5.0/images/icon_close07.png*/ no-repeat 0 0; position:absolute; right:30px; top:10px; cursor:pointer; transition: all 0.3s linear 0s;}
+.df_win_close{ width:15px; height:15px; background:url("../images/icon_close002.png")/*tpa=http://upload.skysgame.com/static/official/xyqy/v5.0/images/icon_close002.png*/ no-repeat 0 0; position:absolute; right:32px; top:26px; cursor:pointer; transition: all 0.3s linear 0s;}
+.reg2_win_close:hover,.df_win_close:hover{ transform:rotate(180deg)}
+.df_win{ display:none; width:100%;  height:1250px; background:rgba(0,0,0,0.5); position:fixed; left:0; top:0; z-index:25;}
+.df_win_cont{ width:644px; height:329px; background:url("../images/df_winbg.png")/*tpa=http://upload.skysgame.com/static/official/xyqy/v5.0/images/df_winbg.png*/ no-repeat 0 0; margin:250px auto 0; position:relative; overflow:hidden;}
+.df_win_mian{padding:70px 0 0 20px; overflow:hidden; height:250px;}
+.df_win_l{ width:258px; height:180px; float:left; margin:40px 0 0 0;}
+.df_win_l p{ font-size:16px; color:#10847f; line-height:24px; margin-left:56px;}
+.df_win_l span{ font-size:16px; color:#f15c62; line-height:24px; margin-left:56px;}
+.df_win_r{ width:300px; height:250px; float:left; overflow:hidden; margin-left:54px;}
+.df_win_l a{  display:block; width:199px; height:46px; margin:100px auto 0; background-image:url("../images/w2_reg_btn.png")/*tpa=http://upload.skysgame.com/static/official/xyqy/v5.0/images/w2_reg_btn.png*/; background-repeat:no-repeat; background-position:0 -327px;}
+.df_win_r a{ display:block; width:199px; height:46px; margin:190px auto 0; background-image:url("../images/w2_reg_btn.png")/*tpa=http://upload.skysgame.com/static/official/xyqy/v5.0/images/w2_reg_btn.png*/; background-repeat:no-repeat; background-position:0 -141px;}
+.df_win_r a:hover{ background-position:0 -212px;}
+.reg2_win_dl{ display:none; width:330px; height:260px; margin:30px 0 0 0; overflow:hidden;}
+.g_gou{ display:block; width:100%; text-align:center; height:76px; overflow:hidden;}
+.reg2_win_dl h4{ display:block; width:100%; font-size:22px; color:#000; line-height:24px; text-align:center;}
+.reg2_win_dl p.g_get{ display:block; width:100%; font-size:12px; color:#636363; line-height:24px; text-align:center; margin-top:20px;}
+.g_code{ width:300px; height:30px; margin:24px auto 12px; overflow:hidden; background:#24c0bf; border-radius:5px;}
+.g_code p{ display:block; width:136px; float:left; height:30px; font-size:14px; color:#fff; line-height:30px; text-indent:12px;}
+.g_code span{ display:block; width:160px; height:24px; float:left; margin:3px 0; background:#fff; border-radius:3px; font-size:14px; color:#ff0000; line-height:24px; text-align:center;}
+.g_btn{ display:block; width:117px; height:27px; margin:0 auto; background:url("../images/w2_reg_btn.png")/*tpa=http://upload.skysgame.com/static/official/xyqy/v5.0/images/w2_reg_btn.png*/ no-repeat 0 -279px; text-indent:999px; white-space:nowrap; overflow:hidden;}
+.reg3_win_dl{ display:none; width:330px; height:260px; margin:25px 0 0 0; overflow:hidden;}
+.reg3_dl_gift span{ display:block; width:290px; height:208px; margin:0 auto;}
+.reg3_dl_gift a{ display:block; width:199px; height:46px; margin:-17px 0 0 80px;}
+
+
+.float01{ width:167px; height:392px; position:fixed; right:0; bottom:60px; z-index:8; overflow:hidden;}
+.float01_big{ width:100%; height:392px; background:url("../images/float_bg01.png")/*tpa=http://upload.skysgame.com/static/official/xyqy/v5.0/images/float_bg01.png*/ no-repeat 0 0; overflow:hidden; }
+.float01_close{ width:24px; height:24px; position:absolute; right:0px; top:3px; cursor:pointer; }
+.float01_cont{ width:100%; }
+.float01_cont a{ display:block; width:100%; }
+.float01_cont a.float01_link01{ height:160px;}
+.float01_cont a.float01_link02{ height:160px;}
+.float01_sm{ display:none; width:26px; height:143px; background:url("../images/float_bg02.png")/*tpa=http://upload.skysgame.com/static/official/xyqy/v5.0/images/float_bg02.png*/ no-repeat 0 0; position:absolute; right:20px; top:20px; cursor:pointer;s}
+.df_win01{ display:none; width:100%; height:1550px; background:rgba(0,0,0,0.5); position:fixed; left:0; top:0; z-index:30;}
+.df_win01_cont{ width:350px; height:216px; background:url("../images/df_winbg01.png")/*tpa=http://upload.skysgame.com/static/official/xyqy/v5.0/images/df_winbg01.png*/ no-repeat 0 0; margin:300px auto 0; position:relative; overflow:hidden;}
+.df_win01_close{ display:block; width:22px; height:22px; background:url("../images/icon_regclose.png")/*tpa=http://upload.skysgame.com/static/official/xyqy/v5.0/images/icon_regclose.png*/ no-repeat 0 0; position:absolute; right:30px; top:20px; cursor:pointer;}
+.df_win01_main{ width:280px; height:145px; margin:60px auto 0;}
+.df_win01_main p{ font-size:18px; color:#333; line-height:24px; text-align:center;}
+.df_win01_btn{ width:148px; height:44px; background:url("../images/btn_dq03.png")/*tpa=http://upload.skysgame.com/static/official/xyqy/v5.0/images/btn_dq03.png*/ no-repeat 0 0; margin:30px auto 0; cursor:pointer;}
+.piaodai{ width:802px; height:432px; position:absolute; right:50%; top:156px; margin-right:-959px; }
+.huaban{ width:702px; height:708px; position:absolute; top:0; left:50%; margin-left:-690px; z-index:0}
+.bgfl{ display:block; width:1920px; height:1080px; margin-top:-40px;  position:absolute; left:50%; margin-left:-960px; top:0;  }
+@media screen and (max-width: 1280px) {
+    .float01 {
+       bottom:6px;
+    }
+}
+
+/*公测特色*/
+.sect02 .wel_t{ margin-bottom:36px; margin-top:20px;}
+.features{ width:1200px; height:610px; margin:0 auto; position:relative; overflow:hidden;}
+.features_cont{ width:936px; height:520px; margin:0 auto; overflow:hidden; position:relative;}
+.features_hd{ width:240px; height:20px; position:absolute; bottom:0; left:50%; margin-left:-75px; }
+.features_hd li{ width:20px; height:20px; float:left; margin:0 5px; background:url("../images/icon_dot01.png")/*tpa=http://upload.skysgame.com/static/official/xyqy/v5.0/images/icon_dot01.png*/ no-repeat 0 -24px; cursor:pointer;}
+.features_hd li:hover,.features_hd li.hover{ background:url("../images/icon_dot01.png")/*tpa=http://upload.skysgame.com/static/official/xyqy/v5.0/images/icon_dot01.png*/ no-repeat 0 0; }
+.features_hd li span{ display:block; width:20px; height:120px; margin:24px auto 0; }
+.features_bd{ width:936px; height:468px; margin:0 auto; overflow:hidden; position:absolute; left:0; top:0; }
+.features_bd{ width:936px; height:468px; margin:0 auto; overflow:hidden; position:absolute; left:0; top:0; }
+.features_bd li{ width:936px; height:468px; float:left;}
+.features_bd li a{ display:block; width:936px; height:468px;}
+.prev,.next{ display:block; width:97px; height:415px; position:absolute; top:26px; background:#4ec1c3; text-indent:999px; overflow:hidden; white-space:nowrap; background-image:url("../images/icon_pre01.png")/*tpa=http://upload.skysgame.com/static/official/xyqy/v5.0/images/icon_pre01.png*/; background-repeat:no-repeat; cursor:pointer;}
+.prev{ left:0; background-position:0 0;}
+.next{ right:0; background-position:-134px 0;}
+.prev:hover{ background-position:0 -462px;}
+.next:hover{ background-position:-134px -462px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

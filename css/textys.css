@@ -1,0 +1,22 @@
+.text_body {width: 1063px;margin: 0 auto;}
+.section .yxgl{
+	text-align: center;
+	font-size: 50px;
+	font-family: "楷体";
+	margin: 23px auto;
+}
+.gmyhs,.xszy,.tswf,.boss,.zztc{
+	font-size: 30px;
+	font-family: "楷体";
+}
+.text_body h2{margin: 15px 0;}
+.text_body p a{font-size: 20px;font-family: "楷体";}
+
+.zztk {
+	display: block;
+	width: 1063px;
+    margin: 20px auto;
+	font-size: 19px;
+	font-family: "楷体";
+	color: red;
+}
